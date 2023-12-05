@@ -2,6 +2,7 @@ import React from 'react';
 import Productbox from './Productbox';
 import pimage1 from '../images/s1.png';
 import pimage2 from '../images/s2.png';
+import pimage3 from '../images/s3.png';
 
 const Products = () => {
   return (
@@ -12,7 +13,7 @@ const Products = () => {
         <div className="a-container">
             <Productbox image={pimage1} title="Caprese Burger" />
             <Productbox image={pimage2} title="Double or Triple Stack" />
-            <Productbox image={pimage1} title="Pimento Cheese Burger" />
+            <Productbox image={pimage3} title="Pimento Cheese Burger" />
         </div>
       </div>
     </div>
